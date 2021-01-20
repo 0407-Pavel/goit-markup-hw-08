@@ -1,0 +1,79 @@
+.about_us .container {
+    display: flex;
+    justify-content: center;
+    }
+    .about_items {
+        display: flex;
+        padding-top: 94px;
+    }
+    .about_topic:not(:last-child) {
+        margin-right: 30px;
+    }
+    .strengths {
+        font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1,875;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    }
+    .strengths_description {
+        font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,714;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-top: 10px;
+    line-height: 24px;
+    }
+    .our_work {
+        display: flex;
+        text-align: center;
+        margin-bottom: 50px;
+        justify-content: center; 
+    }
+    .we_do {
+        display: flex;
+    }
+    .what_we_do {
+        display: flex;
+        justify-content: center;
+    }
+    .we_do_item:not(:last-child) {
+        margin-right: 30px;
+        margin-bottom: 94px;
+    }
+    .about_icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+    
+    .software {
+        position: absolute;
+        width: 370px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        margin-top: 224px;
+        background: rgba(47, 48, 58, 0.8);
+    }
+    .software_name {
+        display: flex;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    margin: 27px 0px;
+    }

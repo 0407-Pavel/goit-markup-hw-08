@@ -1,0 +1,33 @@
+.social_list_footer {
+    display: flex;
+    justify-content: space-between;
+}
+.social_list_link_footer:hover .social_icon_footer,
+.social_list_link_footer:focus .social_icon_footer {
+    fill:white;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+} 
+.social_list_link_footer:hover,
+.social_list_link_footer:focus {
+    background-color: #2196F3;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social_list_link_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+.social_box:not(:last-child) {
+    margin-right: 10px;
+}
+.social_icon_footer {
+    width: 20px;
+    height: 20px;
+    fill:#FFFFFF;
+}
+/*===========portfolio footer the same as index.html=========*/

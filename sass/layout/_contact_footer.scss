@@ -1,0 +1,110 @@
+.logo_footer {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+} 
+.start_name_footer {
+ color: #2196F3;
+}
+.finish_name_footer {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.contact_information {
+    display: flex;
+    background-color: #2F303A;
+    padding: 60px 0;
+}
+.container_information {
+display: flex;
+flex-direction: column;   
+}
+.location_phone_email:not(:last-child) {
+    padding-bottom: 9px;
+}
+.contact_and_icon {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+.location {
+font-family: 'Roboto', sans-serif;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2208px;
+font-style: normal;
+font-weight: 400px;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footer_contact {
+font-family: 'Roboto', sans-serif;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2238px;
+font-style: normal;
+font-weight: 400px;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.connection {
+display: flex;   
+flex-direction: column;
+margin-left: 70px;
+margin-top: 12px;
+}
+.invitation {
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 1,142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+/*==========footer subscription==========*/
+
+.footer_subscription {
+    margin-left: 137px;
+}
+.mailing {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-top: 12px;
+}
+.input_button_area {
+    display: flex;
+}
+
+.form_input_footer {
+    padding-left: 16px;
+}
+.form_input_footer:focus {
+outline: none;
+border-color: var(--accent-color);
+}
+
+/*===========portfolio footer the same as index.html=========*/

@@ -1,17 +1,16 @@
 
 .target {
     font-family: Roboto;
-font-weight: 700;
-font-size: 26px;
-line-height: 1,615;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
-
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.615;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;    
 }
 
-@media screen and (min-device-ratio: 2),
+@media screen and (min-device-ratio: 2)and (min-width: 320px) and (max-width: 767px),
  screen and (min-resolution: 192dpi) and (min-width: 320px) ,
  screen and (min-resolution: 2dppx) and (min-width: 320px) {
      .hero {
@@ -25,25 +24,76 @@ color: #FFFFFF;
         background-image: url(../images/employes/hero.jpg); 
         background-repeat: no-repeat;
         background-size: cover; 
-        padding-top: 128px;
-        padding-bottom: 198px;
+        padding-top: 118px;
+        padding-bottom: 118px;
+        margin-bottom: 60px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .hero {
+        background: rgba(47, 48, 58, 0.4);
+        background-image: url(../images/employes/bg_tablet.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
         padding-top: 118px;
-        padding-right: 204px;
-        padding-bottom: 198px;
-        padding-left: 204px;
+        padding-bottom: 118px;
     }
+    .target {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+ }
 }
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero {
+        background-color: rgba(47, 48, 58, 0.4);
+        background-image: url(../images/employes/bg_tablet@2x.jpg); 
+     }    
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+    width: auto;    
+    background: rgba(47, 48, 58, 0.4);
+    background-image: url(../images/employes/bg_desktop.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+    }
+    .target {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .hero {
+        background-color: rgba(47, 48, 58, 0.4);
+        background-image: url(../images/employes/bg_desktop@2x.jpg); 
+    }    
+}
+
 /* .hero_name {
     display: flex;
     text-align: center;
     justify-content: center;
 } 
-
 .hero {
 width: auto;
 height: 600px;

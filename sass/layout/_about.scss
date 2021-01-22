@@ -1,3 +1,107 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+.work {
+    display: none;
+}
+.about_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.about_topic {
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.strengths {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;   
+}
+.strengths_description {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+padding-top: 10px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .work {
+        display: none;
+    }
+    .about_icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 354px;
+        height: 120px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+.strengths_description {
+display: flex;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+width: 354px;
+height: 75px;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.about_us .container {
+display: flex;
+}
+.about_items {
+display: flex;
+padding-top: 60px;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 768px;
+margin: 0 auto;
+}
+.strengths {
+    display: flex;
+font-family: Roboto;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #212121;
+width: 270px;
+height: 16px;
+padding-left: 15px;
+}
+.about_topic {
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media screen and (min-width: 1200px) {
 .about_us .container {
     display: flex;
     justify-content: center;
@@ -5,6 +109,8 @@
     .about_items {
         display: flex;
         padding-top: 94px;
+        width: 1200px;
+        margin: 0 auto;
     }
     .about_topic:not(:last-child) {
         margin-right: 30px;
@@ -36,6 +142,7 @@
     }
     .we_do {
         display: flex;
+        width: 1200px;
     }
     .what_we_do {
         display: flex;
@@ -76,4 +183,53 @@
     text-transform: uppercase;
     color: #FFFFFF; 
     margin: 27px 0px;
+    }    
+}
+
+
+
+
+/*.about_us .container {
+        display: flex;
+        justify-content: center;
+        
+        width: 1200px;
+        margin: 0 auto;
+    } 
+    .about_icon {
+        width: 270px;
+        height: 120px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }  
+    .strengths {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #212121;        
     }
+    .strengths_description {
+        font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+width: 270px;
+height: 75px;
+}
+.about_items {
+    display: flex;
+    padding-top: 94px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}   
+.about_topic {
+    padding: 0px;
+}     */

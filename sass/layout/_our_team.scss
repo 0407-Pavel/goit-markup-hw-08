@@ -52,7 +52,7 @@ color: #212121;
     .social_list{
         display: flex;
         justify-content: center;
-        margin-bottom: 26px;
+        
         margin-left: 10px;
     }
     .social_list_link {
@@ -113,7 +113,6 @@ color: #212121;
     .social_list{
         display: flex;
         justify-content: center;
-        margin-bottom: 26px;
         margin-left: 10px;
     }
     .social_list_link {
@@ -135,6 +134,7 @@ color: #212121;
     }
     .box_photo_name_position {
         width: 270px;
+        margin: 0;
     }
 }
 

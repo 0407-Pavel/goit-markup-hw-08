@@ -766,7 +766,6 @@ height: 75px;
   .social_list {
     display: flex;
     justify-content: center;
-    margin-bottom: 26px;
     margin-left: 10px;
   }
   .social_list_link {
@@ -825,7 +824,6 @@ height: 75px;
   .social_list {
     display: flex;
     justify-content: center;
-    margin-bottom: 26px;
     margin-left: 10px;
   }
   .social_list_link {
@@ -848,6 +846,7 @@ height: 75px;
   }
   .box_photo_name_position {
     width: 270px;
+    margin: 0;
   }
 }
 
@@ -1047,7 +1046,18 @@ color: #757575;
     box-sizing: border-box;
     border-radius: 4px;
     cursor: pointer;
-    margin: 15px;
+    margin: 0;
+  }
+  .customers_box:not(:last-child) {
+    margin-right: 35px;
+  }
+  .main_box {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .regular_customers {
+    margin-top: 94px;
+    margin-bottom: 50px;
   }
 }
 
@@ -1095,8 +1105,7 @@ color: #757575;
 .icon_link:focus {
     fill: var(--accent-color);
     border: 1px solid #2196F3;
-}
-*/
+} */
 .logo_footer {
   display: block;
   font-family: 'Raleway', sans-serif;
